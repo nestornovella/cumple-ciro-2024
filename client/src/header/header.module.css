@@ -1,0 +1,43 @@
+
+
+
+.octane{
+    animation: animateOctane ease-in-out 1.5s forwards;
+}
+
+.dialog{
+    animation: animateDialog 1s forwards;
+    animation-delay: 1.5s;
+    
+}
+
+.dialog2{
+    animation: animateDialog 1s forwards;
+    animation-delay: 2s;
+    
+}
+
+
+
+
+
+
+@keyframes animateOctane{
+    from{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(-200px);
+        opacity: 1;
+    }
+}
+
+@keyframes animateDialog{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
