@@ -4,12 +4,15 @@ import pathFinder from '../assets/pathFinder.png'
 import Styles from './header.module.css'
 
 function Header() {
+
+    
+
     return (
         <div>
             <div className="bg-primary w-full h-[60px]">
                 <div className="flex justify-center items-center h-full gap-5">
                     <h2 className="text-white  font-frikiFont">Vos venis?</h2>
-                    {/* <input className='p-2 rounded-lg' type="text" placeholder='confirmar asistencia ' /> */}
+                    <input className='p-2 rounded-lg' type="text" placeholder='confirmar asistencia ' />
                 </div>
             </div>
             <div className='relative z-[10]'>
