@@ -22,7 +22,7 @@ function Header() {
                    '>Upss, se suspendio por las probabilidades de lluvia y se pasara para el domingo 29 de septiembre</h2>
                 </div>
                     <img className='w-[200px] animate-pulse' src="https://cdn.pixabay.com/animation/2023/11/11/18/15/18-15-55-407_512.gif" alt="" />
-                    <h2 className='text-[40px] font-bold text-white text-center mb-10'>LOS ESPERO FERSTEJAREMOS MI CUMPLE VENGAN TODOS EL DOMINGO 29</h2>
+                    <h2 className='text-[40px] font-bold text-white text-center mb-10'>LOS ESPERO FESTEJAREMOS MI CUMPLE VENGAN TODOS EL DOMINGO 29</h2>
                     {/* <p className='text-white'>se suspende si no venis!</p> */}
                 </div>
                 <div className={`${Styles.octane} absolute -top-0 z-[1] flex opacity-0`}>
