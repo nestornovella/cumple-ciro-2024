@@ -17,13 +17,13 @@ function Header() {
             </div>
             <div className='relative z-[10]'>
                 <div className=" flex flex-col gap-10 bg-primary min-h-[600px] mt-[350px] mb-[100px] rounded-lg relative z-[2] shadow-[0_0_15px_5px_rgba(255,255,255,0.5)] justify-center items-center ">
-                    <h2 className='text-[40px] font-bold text-white text-center '>LOS ESPERO FERSTEJAREMOS MY CUMPLE VENGAN TODOS</h2>
-                    {/* <p className='text-white'>se suspende si no venis!</p> */}
-                    <img className='w-[200px] animate-pulse' src="https://cdn.pixabay.com/animation/2023/11/11/18/15/18-15-55-407_512.gif" alt="" />
                 <div className='bg-[#FF0990] rounded-lg animate-bounce'>
-                   <h2 className='p-2 text-white font-bold 
-                   '>Upss, se suspendio por las probabilidades de lluvia y se pasara para el domingo</h2>
+                   <h2 className='p-2 text-xl text-white font-bold 
+                   '>Upss, se suspendio por las probabilidades de lluvia y se pasara para el domingo 29 de septiembre</h2>
                 </div>
+                    <img className='w-[200px] animate-pulse' src="https://cdn.pixabay.com/animation/2023/11/11/18/15/18-15-55-407_512.gif" alt="" />
+                    <h2 className='text-[40px] font-bold text-white text-center mb-10'>LOS ESPERO FERSTEJAREMOS MI CUMPLE VENGAN TODOS EL DOMINGO 29</h2>
+                    {/* <p className='text-white'>se suspende si no venis!</p> */}
                 </div>
                 <div className={`${Styles.octane} absolute -top-0 z-[1] flex opacity-0`}>
                     <div className=''>
