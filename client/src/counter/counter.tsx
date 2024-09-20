@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 
 function parseTime ():{days:number, hours:number, minutes:number, seconds:number}{
-    const partyDate: Date = new Date('2024-09-22T14:00:00');
+    const partyDate: Date = new Date('2024-09-29T14:00:00');
     const date: Date = new Date();
     const rest: number = partyDate.getTime() - date.getTime();
     
@@ -37,7 +37,7 @@ function Counter() {
             <section className="flex flex-col justify-center items-center gap-2 h-[150px] md:h-full ">
                 <h2 className="text-white text-2xl">horarios</h2>
                 <div className="bg-primary h-[100px] md:h-full  w-full rounded-xl text-white text-center flex justify-center items-center p-2">
-                    <p className="text-lg">El cumple se ralizara el dia domingo 22 de sepiembre desde las 14:00 hs hasta las 18:00 hs</p>
+                    <p className="text-lg">El cumple se ralizara el dia domingo 29 de sepiembre desde las 14:00 hs hasta las 19:00 hs</p>
                 </div>
 
             </section>
